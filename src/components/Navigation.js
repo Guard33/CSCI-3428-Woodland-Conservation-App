@@ -29,7 +29,7 @@ const Navigation = ({ toggleDarkMode, dark }) => {
           <Link to="/about" className="py-2 px-4 transition-colors duration-500 ease-in-out hover:bg-yellow-400 rounded-lg">About</Link>
           <Link to="/sitemap" className="py-2 px-4 transition-colors duration-500 ease-in-out hover:bg-yellow-400 rounded-lg">Site Map</Link>
           <Link to="gallery" className="py-2 px-4 transition-colors duration-500 ease-in-out hover:bg-yellow-400 rounded-lg">Gallery</Link>
-          <Link to="#ecosystem" className="py-2 px-4 transition-colors duration-500 ease-in-out hover:bg-yellow-400 rounded-lg">Ecosystem</Link>
+          <Link to="/ecosystem" className="py-2 px-4 transition-colors duration-500 ease-in-out hover:bg-yellow-400 rounded-lg">Ecosystem Quiz</Link>
           <Link to="flora" className="py-2 px-4 transition-colors duration-500 ease-in-out hover:bg-yellow-400 rounded-lg">Flora/Fauna/Fungi</Link>
           <Link to="#natural-burial" className="py-2 px-4 transition-colors duration-500 ease-in-out hover:bg-yellow-400 rounded-lg">Natural Burial</Link>
           <Link to="#ecommerce" className="py-2 px-4 transition-colors duration-500 ease-in-out hover:bg-yellow-400 rounded-lg">eCommerce</Link>
@@ -60,7 +60,7 @@ const Navigation = ({ toggleDarkMode, dark }) => {
           <Link to="/about" className="py-2 transition-colors duration-500 ease-in-out hover:bg-yellow-400 w-full text-center rounded-lg hover:rounded-xl">About</Link>
           <Link to="/sitemap" className="py-2 transition-colors duration-500 ease-in-out hover:bg-yellow-400 w-full text-center rounded-lg hover:rounded-xl">Site Map</Link>
           <Link to="/gallery" className="py-2 transition-colors duration-500 ease-in-out hover:bg-yellow-400 w-full text-center rounded-lg hover:rounded-xl">Gallery</Link>
-          <Link to="#ecosystem" className="py-2 transition-colors duration-500 ease-in-out hover:bg-yellow-400 w-full text-center rounded-lg hover:rounded-xl">Ecosystem</Link>
+          <Link to="/ecosystem" className="py-2 transition-colors duration-500 ease-in-out hover:bg-yellow-400 w-full text-center rounded-lg hover:rounded-xl">Ecosystem Quiz</Link>
           <Link to="#flora" className="py-2 transition-colors duration-500 ease-in-out hover:bg-yellow-400 w-full text-center rounded-lg hover:rounded-xl">Flora/Fauna/Fungi</Link>
           <Link to="#natural-burial" className="py-2 transition-colors duration-500 ease-in-out hover:bg-yellow-400 w-full text-center rounded-lg hover:rounded-xl">Natural Burial</Link>
           <Link to="#ecommerce" className="py-2 transition-colors duration-500 ease-in-out hover:bg-yellow-400 w-full text-center rounded-lg hover:rounded-xl">eCommerce</Link>

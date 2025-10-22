@@ -10,6 +10,9 @@ import SiteMap from './components/Sitemap';
 import Contact from './components/Contact'; // Importing Contact component
 import Gallery from './components/gallery';
 import Flora from './components/flora';
+import EcosystemQuiz from "./components/EcosystemQuiz";
+
+
 
 // App component definition
 function App() {
@@ -36,6 +39,8 @@ function App() {
           <Route path="/contact" element={<Contact />} /> {/* Route for Contact component */}
           <Route path="/gallery" element={<Gallery />}/>
           <Route path="/flora" element={<Flora />}/>
+          <Route path="/ecosystem" element={<EcosystemQuiz />} />
+
         </Routes>
       </div>
     </Router>
