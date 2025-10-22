@@ -73,7 +73,7 @@ const VirtualTour = () => {
     });
   };
 
-  // 📸 handle uploads — create preview + editable caption
+  // handle uploads — create preview + editable caption
   const handleUpload = (event) => {
     const files = Array.from(event.target.files);
 
@@ -91,7 +91,7 @@ const VirtualTour = () => {
     });
   };
 
-  // ✏️ handle caption typing
+  // handle caption typing
   const handleCaptionChange = (index, newCaption) => {
     setPendingUploads((prev) => {
       const updated = [...prev];
@@ -100,7 +100,7 @@ const VirtualTour = () => {
     });
   };
 
-  // ✅ Add pending uploads to slideshow
+  // Add pending uploads to slideshow
   const addToSlideshow = () => {
     setSlides((prev) => [...prev, ...pendingUploads]);
     setPendingUploads([]);
