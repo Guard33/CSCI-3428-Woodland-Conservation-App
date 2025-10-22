@@ -34,6 +34,7 @@ const Navigation = ({ toggleDarkMode, dark }) => {
           <Link to="#natural-burial" className="py-2 px-4 transition-colors duration-500 ease-in-out hover:bg-yellow-400 rounded-lg">Natural Burial</Link>
           <Link to="#ecommerce" className="py-2 px-4 transition-colors duration-500 ease-in-out hover:bg-yellow-400 rounded-lg">eCommerce</Link>
           <Link to="/contact" className="py-2 px-4 transition-colors duration-500 ease-in-out hover:bg-yellow-400 rounded-lg">Contact</Link> {/* Link to Contact page */}
+          <Link to="/virtualtour" className="py-2 px-4 transition-colors duration-500 ease-in-out hover:bg-yellow-400 rounded-lg">Virtual Tour</Link>
         </div>
         {/* Dark mode toggle button for desktop view */}
         <div className="hidden md:flex items-center ml-4">
@@ -65,6 +66,7 @@ const Navigation = ({ toggleDarkMode, dark }) => {
           <Link to="#natural-burial" className="py-2 transition-colors duration-500 ease-in-out hover:bg-yellow-400 w-full text-center rounded-lg hover:rounded-xl">Natural Burial</Link>
           <Link to="#ecommerce" className="py-2 transition-colors duration-500 ease-in-out hover:bg-yellow-400 w-full text-center rounded-lg hover:rounded-xl">eCommerce</Link>
           <Link to="/contact" className="py-2 transition-colors duration-500 ease-in-out hover:bg-yellow-400 w-full text-center rounded-lg hover:rounded-xl">Contact</Link> {/* Link to Contact page */}
+          <Link to="/virtualtour" className="py-2 transition-colors duration-500 ease-in-out hover:bg-yellow-400 w-full text-center rounded-lg hover:rounded-xl">Virtual Tour</Link>
         </nav>
       </div>
     </div>
